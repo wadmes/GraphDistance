@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+single-graph-result/*
 __pycache__/
 *.py[cod]
 *$py.class

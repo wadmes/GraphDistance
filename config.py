@@ -15,11 +15,11 @@ class ArgParser(argparse.ArgumentParser):
 
 
 parser = argparse.ArgumentParser("Graph Distance Project")
-parser.add_argument("--graph_data", type=str, default="random",
+parser.add_argument("--graph_data", type=str, default="arith_small",
                     help="graph_data for analysis, it can be \
                     iscas, cep, arith,mcnc,random, itc99,reg_ran,")   
-parser.add_argument("--distance_metric", type=str, default="hamming",
-                    help="distance metric, it can be ,")
+parser.add_argument("--distance_metric", type=str, default="WL",
+                    help="distance metric, it can be eigen,")
 # How the str argument is set
 
 opt = parser.parse_args()
